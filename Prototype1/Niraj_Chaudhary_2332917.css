@@ -1,0 +1,145 @@
+.app{
+    text-align: center;
+    width: 370px;
+   margin-left: 50px;
+   animation-name: niraj;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  font-size: 40px;
+  font-family: cursive;
+
+ }
+  
+  @keyframes niraj{
+   from { width: 600px;}
+   to{
+   width: 1650px;
+   } 
+  }
+
+.app:hover{
+  color: aqua;
+}
+
+
+    body{
+        background: rgb(9, 9, 199);
+    }
+    .search{
+       
+        margin-top: -10px;
+        margin-left: 500px;
+    }
+.weather-icon{
+ 
+    width: 90px;
+
+}
+.weather1{
+background: blue;
+    margin-left: 450px;
+    position: absolute;
+    width: 500px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 290px;
+    height: 400px;
+    border-radius: 25px;
+    font-size: 23px;
+    transition: 0.8s;
+}
+.weather1 :hover{
+  color: rgb(231, 225, 225);
+ transform: scale(1.1);
+
+}
+.weather{
+  margin-top: -30px;
+}
+.error{
+    display: none;
+    font-size: 30px;
+    margin-left: 500px;
+   
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .col{
+    display: flex; 
+    align-items: center;
+    text-align: left;
+  }
+ #col1{
+    padding-left: 250px;
+    margin-top: -70px;
+ }
+
+#human{
+  margin-top: 10px;
+  margin-left: 28px;
+} 
+
+
+ .search{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search input{
+  
+    border: 0;
+    outline: 0;
+    background:rgb(9, 9, 199);
+    color: #ffffff;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+  }
+  
+  .search button{
+    background: rgb(9, 9, 199);
+    border: 0;
+    outline: 0;
+    color: #555;
+    border-radius: 300px;
+     width: 60px;
+    height: 60px;
+    cursor: pointer;
+ 
+  
+  }
+  
+  .search button img{
+    width: 16px;
+    margin-left:-150px;
+
+  }
+
+
+  .press{
+    display: flex;
+    margin-top: -40px;
+    margin-left: 30px;
+  }
+
+
+  .datetime{
+    margin-bottom: 10px;
+  }
+
+
+.visibility{
+  display: flex;
+  margin-left: 250px;
+  margin-top: -70px;
+}
